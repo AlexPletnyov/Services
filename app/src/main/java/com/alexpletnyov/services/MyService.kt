@@ -24,6 +24,7 @@ class MyService : Service() {
 				delay(1000)
 				log("timer $i")
 			}
+			stopSelf()
 		}
 
 		return START_REDELIVER_INTENT
