@@ -36,7 +36,7 @@ class MyService : Service() {
 	}
 
 	fun log(message: String) {
-		Log.d("SERVICE_LOG", message)
+		Log.d("SERVICE_LOG", "MyService: $message")
 	}
 
 	override fun onBind(intent: Intent?): IBinder? {
