@@ -26,10 +26,10 @@
         android:text="intent service" />
 
     <Button
-        android:id="@+id/job_dispatcher"
+        android:id="@+id/job_scheduler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="job dispatcher" />
+        android:text="job scheduler" />
 
     <Button
         android:id="@+id/job_intent_service"
